@@ -1,0 +1,19 @@
+# PocketSlice 2.5D — runtime dependencies
+# python >= 3.9 (tested on 3.10)
+# Install: pip install -r requirements.txt
+
+# Numerics / geometry
+numpy>=1.24
+scipy>=1.10          # cKDTree (thickness channel), ndimage (peak detection)
+
+# Deep learning
+torch>=2.0
+
+# Structure parsing
+biopython>=1.81
+
+# Progress bar (eval / train)
+tqdm>=4.65
+
+# Functional classifier (joblib-serialized RandomForest)
+joblib>=1.2
